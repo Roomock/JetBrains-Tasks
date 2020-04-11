@@ -1,0 +1,5 @@
+digits = ["zero", "one", "two", "three", "four", "five", "six", "seven", "eight", "nine"]
+number = input()
+
+for n in number:
+    print(digits[int(n)])

@@ -1,0 +1,19 @@
+# inputs
+first_input = int(input())
+second_input = int(input())
+num_sum = 0
+num_len = 0
+listed = range(first_input, second_input + 1)
+
+# calculating range
+for i in listed:
+    if i % 3 == 0:
+        num_sum += i
+        num_len += 1
+    else:
+        pass
+
+# finding average
+avg = num_sum / num_len
+
+print(avg)

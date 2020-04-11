@@ -1,0 +1,8 @@
+number = int(input())
+num_list = []
+for n in range(number):
+    n = int(input())
+    num_list.append(n)
+for x in num_list:
+    if x % 7 == 0:
+        print(x ** 2)

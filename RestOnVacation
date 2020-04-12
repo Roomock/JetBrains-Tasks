@@ -1,0 +1,13 @@
+days = int(input())
+food_day = int(input())
+flight = int(input())
+hotel_night = int(input())
+
+# totalling up costs
+total_food = days * food_day
+flights = flight * 2
+total_hotels = hotel_night * (days - 1)  # one less night than day
+
+cost_of_trip = total_food + flights + total_hotels
+
+print(cost_of_trip)

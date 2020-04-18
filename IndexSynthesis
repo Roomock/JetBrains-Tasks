@@ -1,0 +1,8 @@
+morphemes = input()
+
+if morphemes < 2:
+    print("Analytic")
+elif 2 <= morphemes <= 3:
+    print("Synthetic")
+elif morphemes > 3:
+    print("Polysynthetic")

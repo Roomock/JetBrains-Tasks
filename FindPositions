@@ -1,0 +1,19 @@
+number_list = input().split()
+target_number = input()
+place = -1
+locations = []
+
+for number in number_list:
+    if number == target_number:
+        place += 1
+        locations.append(place)
+    else:
+        place += 1
+
+locations_list = str(locations)[1:-1]
+final_locations = locations_list.replace(",", " ")
+
+if len(final_locations) >= 1:
+    print(final_locations)
+else:
+    print("not found")

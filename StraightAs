@@ -1,0 +1,15 @@
+grades = input().split()
+
+grade_count = 0
+a_count = 0
+
+for grade in grades:
+    if grade == "A":
+        a_count += 1
+        grade_count += 1
+    else:
+        grade_count += 1
+
+a_percent = a_count / grade_count
+
+print(round(a_percent, 2))

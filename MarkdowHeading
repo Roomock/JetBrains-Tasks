@@ -1,0 +1,15 @@
+def heading(word, level=1):
+    if level <= 1:
+        return "# " + word
+    elif level == 2:
+        return "## " + word
+    elif level == 3:
+        return "### " + word
+    elif level == 4:
+        return "#### " + word
+    elif level == 5:
+        return "##### " + word
+    elif level >= 6:
+        return "###### " + word
+    else:
+        return f"# {level}"

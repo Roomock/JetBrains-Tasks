@@ -1,0 +1,8 @@
+n = int(input())
+numbers = []
+for _i in range(n):
+    ele = int(input())
+
+    numbers.append(ele)
+
+print(numbers)

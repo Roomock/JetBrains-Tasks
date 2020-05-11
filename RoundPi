@@ -1,0 +1,6 @@
+pi = 3.141592653589793
+# put your python code here
+
+pi_string = str(pi)
+
+print(pi_string[:7])

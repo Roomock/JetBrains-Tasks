@@ -1,0 +1,4 @@
+floating_point = float(input())
+decimal = int(input())
+
+print(f'{floating_point:.{decimal}f}')

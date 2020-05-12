@@ -1,0 +1,10 @@
+numbers = input().split()
+answers = input().split()
+
+number_set = set(numbers)
+answer_set = set(answers)
+
+if number_set == answer_set:
+    print("True")
+else:
+    print("False")

@@ -1,0 +1,9 @@
+def check_email(string):
+    if " " in string:
+        return False
+    at_sign = string.find("@")
+    if at_sign < 0:
+        return False
+    if string[at_sign + 1:].find(".") < 1:
+        return False
+    return True

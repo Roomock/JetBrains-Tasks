@@ -1,0 +1,6 @@
+def what_to_do(instructions):
+    if instructions.startswith("Simon says"):
+        return "I" + instructions[10:len(instructions)]
+    if instructions.endswith("Simon says"):
+        return "I " + instructions[0:len(instructions) - 10]
+    return "I won't do it!"
